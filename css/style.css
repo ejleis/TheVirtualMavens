@@ -28,13 +28,13 @@ body {
 .hero-container {
   padding-top: 100px;
   padding-right: 600px;
-  padding-left: 100px;
+  padding-left: 300px;
   padding-bottom: 100px;
   color: #f9f6ee;
 }
 
 .about {
-  padding: 100px 150px;
+  padding: 150px 150px;
 }
 
 .about-description {
