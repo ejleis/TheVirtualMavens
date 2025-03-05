@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f6ee;
+  color: #353935;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.884)), url('../assets/img/hero-background.jpg') no-repeat center center/cover;
+  opacity: 0.8; /* Only the background image is affected */
+  z-index: -1; /* Places the pseudo-element behind the content */
+}
+
+.hero-container {
+  padding-top: 100px;
+  padding-right: 600px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  color: #f9f6ee;
+}
+
+.about {
+  padding: 100px 150px;
+}
+
+.about-description {
+  margin-right: 75px;
+}
+
+.about-img {
+  max-width: 40%;
+  position: relative;
+  min-width: 40%;
+}
+
+.green-box {
+  width: 256px;
+  position: relative;
+  z-index: 10;
+  border-radius: 10px;
+  background: rgb(2, 151, 52);
+  padding: 40px;
+  color: #f9f6ee;
+}
+
+.img-box img:nth-child(1) {
+  position: absolute;
+  top: 122px;
+  left: -10px;
+  z-index: 5;
+  border-radius: 5px;
+}
+.img-box img:nth-child(2) {
+  position: absolute;
+  top: -13px;
+  left: 150px;
+  z-index: 3;
+  border-radius: 5px;
+}
+
+.img-box img:nth-child(3) {
+  position: absolute;
+  top: 97px;
+  left: 160px;
+  z-index: 4;
+  border-radius: 5px;
+}
