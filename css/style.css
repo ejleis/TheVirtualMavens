@@ -34,7 +34,7 @@ body {
 }
 
 .about {
-  padding: 150px 150px;
+  padding: 150px 75px 100px;
 }
 
 .about-description {
@@ -78,4 +78,19 @@ body {
   left: 160px;
   z-index: 4;
   border-radius: 5px;
+}
+
+hr {
+  border-top: 2px solid black;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.card {
+  width: 18rem;
+}
+
+.card i {
+  margin-bottom: 15px;
 }
